@@ -1,0 +1,14 @@
+header {
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10rem;
+    margin-top: 70%;
+  }
+
+  .contenedor {
+      padding-top: 40%;
+  }
+
+
