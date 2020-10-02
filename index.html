@@ -10,13 +10,15 @@
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/58231aedda.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Mi Portafolio</title>
 </head>
 <body>
     <!-- Nav bar -->
      <nav class="navbar navbar-expand-md navbar-dark colorblanco fixed-top bg-info">
-        <a class="navbar-brand ml-5 pl-5" href="#"><h1 class="ml-5"><span>Javier.C</span></h1></a>
+        <a class="navbar-brand" href="#"> <img class="ml-5 pl-5" src="assets/img/logo2-01.png" height="60" alt="Logo de Olivia Ros"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon icon-bar"></span>
         </button>
@@ -41,22 +43,21 @@
       
       <header class="hero text-light text-right">
         <div class="container">
-          <div class="absoluta">
-              <h1 class="display-4 text-center font-weight-bold">Hola soy!</h1>
-              <hr class="bg-white">
-              <h2 class="text-center">Javier Cuevas Vergar</h2>
+          <div class="absoluta frases">
+              <h1 class="display-9 text-center font-weight-light text-dark frase-1">Hola soy!</h1>
+              
+              <h2 class="display-4 text-center font-weight-bold text-dark frase-2">Javier Cuevas Vergaras</h2>
           </div>
         </div>
          
       </header>
 
       
-      <hr class="m-5">
-      
-      <section class="container p-3 my-3 ">
+     
+      <section class="container p-3 my-3 pt-5 mt-5 mb-5">
         <div class="container p-6">
           <div class="row">
-            <div class="col-12"><h5 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium blanditiis natus explicabo facilis, itaque repellat at esse, inventore quas in, cupiditate suscipit sit voluptate aliquam eveniet fugit laborum ad quo.</h5></div>
+            <div class="col-12"><h5 class="text-center font-weight-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium blanditiis natus explicabo facilis, itaque repellat at esse, inventore quas in, cupiditate suscipit sit voluptate aliquam eveniet fugit laborum ad quo.</h5></div>
             <hr>
             <div class="col-md-6" >
                 <div class="card-body">
@@ -67,7 +68,7 @@
             </div>
             <div class="col-md-6" >
                 <div class="card-body">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur asperiores harum dolorum earum. Facere tenetur dicta quasi iure magnam ipsam. Odit, quidem consequuntur! Asperiores omnis inventore quasi maxime voluptatem ullam!</p>
+                  <p class="font-weight-regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur asperiores harum dolorum earum. Facere tenetur dicta quasi iure magnam ipsam. Odit, quidem consequuntur! Asperiores omnis inventore quasi maxime voluptatem ullam!</p>
                 </div>
             </div>
           </div>
@@ -77,7 +78,7 @@
       
           
 
-          <section id="about" class="container text-center my-5">
+        <section id="about" class="container text-center my-5">
             <h2 class="display-3 font-weight-bold my-4">Mí experincia</h2>
       
           <div class="row">
@@ -91,6 +92,7 @@
               <h3 class="my-3">Brain share</h3>
               <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
+          </div>
         </section>
 
         <section id="work" class="container-fluid my-5 p-5 bg-info">
@@ -156,6 +158,63 @@
                 </div>
               </div>                  
           </section>
+
+          <div class="container my-5 py-3">
+            <div class="row">
+              <div class="col-4 p-4 text-right">
+                <h2 class="font-weight-bold">Me has visto en:</h2>
+              </div>
+              <div class="col-6 bg-secondary text-white rounded pt-4 pb-5">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#blogCarousel" data-slide-to="1"></li>
+                  </ol>
+      
+                  <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                     <div class="row">
+                       <div class="col-3">
+                         <i class="fab fa-codepen fa-2x" data-container="body" data-toggle="popover"  data-trigger="hover" data-placement="bottom" data-content="Codepen"></i>         
+                       </div>
+                       <div class="col-3">
+                        <i class="fab fa-apper fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Apper"></i>
+                      </div>
+                      <div class="col-3">
+                        <i class="fab fa-angrycreative fa-2x" data-container="body" data-trigger="hover" data-toggle="popover" data-placement="bottom" data-content="Angrycreative"></i>
+                      </div>
+                      <div class="col-3">
+                        <i class="fab fa-google fa-2x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Google"></i>
+                      </div>
+      
+                     </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-3">
+                          <i class="fab fa-500px fa-2x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="fa-500"></i>
+                        </div>
+                        <div class="col-3">
+                          <i class="fab fa-apple fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Apple"></i>
+                       </div>
+                       <div class="col-3">
+                          <i class="fab fa-aviato fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Aviato"></i>
+                       </div>
+                       <div class="col-3">
+                          <i class="fab fa-d-and-d fa-2x" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="d-and-d"></i>
+                       </div>
+                       
+                    </div>
+                  </div>
+      
+                </div>
+      
+              </div>
+            </div>
+          </div>
+
+
+      
           
           
           
@@ -168,10 +227,10 @@
 
           <section class="icons-section">
             <div class="container-fluid bg-info py-5">
-                <div class="container py-4">
+                <div class="container">
                     <div class="row">
                         <div class="col-6 col-md-5 align-self-center">
-                            <h2 class="font-weight-bold front-3rem text-white">Ahora aceptamos</h2>
+                            <h2 class="font-weight-bold front-3rem text-white">Javier Cuevas Vergara</h2>
                         </div>
                         <div class="col-6 col-md-7 col-lg-6 text-white">
                             <i class="fab fa-github-square fa-5x"></i>
@@ -183,6 +242,18 @@
                 </div>
             </div>
         </section>
+
+      <!--JQuary 3.5.1-->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <!--Popper JS 1.16.1-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+  <!--Boostrap JS 4.5.2-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!--Mi script-->
+  <script src="assets/js/scrpts.js"></script>
         
           
           
